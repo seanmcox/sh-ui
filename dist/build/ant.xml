@@ -46,7 +46,7 @@
     </target>
 
     <target name="jar_and_bundle" depends="jar">
-        <copy file="../install/sh.ui.gui.jar" todir="${dir.workspace}/SH Main/dist/install/bundle"/>
+        <copy file="../install/sh.ui.gui.jar" todir="${dir.workspace}/sh-main/dist/install/bundle"/>
         <copy file="../../lib/batik-1.9-bin/LICENSE" tofile="${dir.workspace}/sh-main/dist/install/LICENSE.batik.txt"/>
     </target>
 </project>
