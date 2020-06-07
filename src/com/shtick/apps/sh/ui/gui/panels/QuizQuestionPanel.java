@@ -155,7 +155,7 @@ public class QuizQuestionPanel extends JPanel {
 							}
 							if(!allAnswered){
 								int result = JOptionPane.showConfirmDialog(QuizQuestionPanel.this, "Not all questions have been answered. Do you really want to finish the quiz?", "Confirm Done", JOptionPane.YES_NO_OPTION);
-								if(result==JOptionPane.NO_OPTION)
+								if(result!=JOptionPane.YES_OPTION)
 									return;
 							}
 						}
